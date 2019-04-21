@@ -1,0 +1,90 @@
+
+body {
+    background: linear-gradient(20deg, white, grey) ;
+    background-size:  400%;
+}
+
+.registration-form {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.submit-button {
+    display: flex !important;
+    margin: auto !important;
+    border: none !important;
+}
+
+.submit-button:hover {
+    background: grey !important;
+    border: none !important
+}
+
+.notification {
+    color: maroon;
+}
+
+.files-wrapper
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.form-check
+{
+    display: block;
+    text-align: center;
+}
+
+.admin
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-decoration: none !important;
+}
+
+input:focus, input:active, select:focus, select:active, button:focus, button:active
+{
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.form-check-input {
+}
+
+
+.success {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-page
+{
+    text-align: center;
+}
+
+.main-page:hover
+{
+    text-decoration: none;
+}
+
+.delete-btn
+{
+    width: 100px;
+    margin: auto !important;
+}
+
+.touser
+{
+    text-align: center;
+}
+
+.touser a
+{
+    text-decoration: none;
+}
